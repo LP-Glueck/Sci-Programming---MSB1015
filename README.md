@@ -32,11 +32,11 @@ We will ignore the tumorBorder and Mask variables.
 
 ## Aim of analysis: 
 Overall we aim to explore, clean and transform the data in such a way to obtain more informative variables within reduced dimensions. 
-We then will upsample using the SMOTE algorithm. 
-From these upsampled data variables, we will train and test classification models to predict the type of tumour from each sample based on these newly transformed and partly synthesized data.
-As well, 
-involving: 
-- Removing patients with different image sizes
+
+We then upsampled data variables and train and test classification models to predict the type of tumour from each sample based on these newly transformed and partly synthesized data.
+ 
+Main components: 
+- Initial exploration and cleaning
 - Flattening the images to one-dimensional arrays
 - Perform PCA on the original samples
 - Upsample the training set 
