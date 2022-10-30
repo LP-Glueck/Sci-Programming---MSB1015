@@ -12,9 +12,10 @@ Overall the script will include:
 - Model training using:
   - K-Nearest Neighbours
   - Support Vector Machines
+  - Random Forest
 
 
-Please notice:
+## Please notice:
 Since the entire analysis for review is contained within one script, there should not be any confusion in the order of methods to run. 
 Just follow the jupyter notebook as it is and there shouldn't be any problems. 
 
